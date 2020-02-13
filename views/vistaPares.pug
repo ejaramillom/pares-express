@@ -1,0 +1,14 @@
+doctype html
+html
+  head
+    title  Pares
+  body
+    #pair
+      - var n = 1;
+      while n <= 50
+        if n % 2 == 0
+          h1 #{n} soy Par!
+          - n= n + 1
+        else
+          h1 #{n} soy Impar!
+          - n= n + 1
